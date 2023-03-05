@@ -6,7 +6,7 @@ predict.py: a script for predicting the class of a flower image using the traine
 utils.py: a script containing utility functions for loading and preprocessing flower images.
 functions.py: a script containing functions necessary to execute the train.py and predict.py scripts.
 
-Installation
+# Installation
 Before using this repository, you need to install the following dependencies:
 
 Python 3.x
@@ -14,8 +14,8 @@ PyTorch
 torchvision
 PIL
 
-Usage
-Training
+# Usage
+# Training
 To train the model, you need to run the train.py script. The script requires the following arguments:
 
 data_dir: the path to the directory containing the training images.
@@ -26,7 +26,7 @@ checkpoint_path: the path to save the trained model checkpoint.
 --epochs: the number of training epochs (default is 10).
 --gpu: use GPU for training (default is False).
 
-Prediction
+# Prediction
 To predict the class of a flower image, you need to run the predict.py script. The script requires the following arguments:
 
 input: the path to the input image.
@@ -35,5 +35,5 @@ checkpoint: the path to the trained model checkpoint.
 --category_names: the path to the JSON file containing category names (default is 'cat_to_name.json').
 --gpu: use GPU for prediction (default is False).
 
-Acknowledgments
+# Acknowledgments
 This project was completed as part of the Udacity AI Programming with Python Nanodegree Program. The dataset used in this project is the 102 Category Flower Dataset.
